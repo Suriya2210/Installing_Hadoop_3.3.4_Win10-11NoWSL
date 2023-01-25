@@ -18,10 +18,10 @@
 
 - Type `"Edit the system environment variables"` in the Start Menu. _[Not "Edit environment variables for your account"]_
   - Windows 11 Preview - <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWin11.png?raw=true" width=50% height=50%></p>
-  - Windows 10 Preview - <br /> <p align="left"><img style="float: right;" src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWin10.png?raw=true" width=50% height=50%></p>
+  - Windows 10 Preview - <br /> <p align="left"><img style="float: right;" src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWin10.png?raw=true" width=80% height=80%></p>
 
 - Under both `User variables for %YOUR_USERNAME%` **and** `System variables`, click on `New...`
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarBefore.png?raw=true" width=40% height=40%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarBefore.png?raw=true" width=80% height=80%></p>
 
 - Now create two environment variables with the following values in the before mentioned places:
   - Variable 1:
@@ -32,14 +32,14 @@
     - Variable value	: `C:\hadoop-3.3.4`
 
 - It should look like this after completion:
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarAfter.png?raw=true" width=40% height=40%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarAfter.png?raw=true" width=80% height=80%></p>
 
 - Now, under both the variable lists, open `Path`, add the following and click on `OK`:
   -  `C:\Program Files\Java\jdk1.8.0_361\bin`
   -  `C:\hadoop-3.3.4\bin`
   -  `C:\hadoop-3.3.4\sbin`
 - It should look like this:
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWindow.png?raw=true" width=42% height=42%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWindow.png?raw=true" width=82% height=82%></p>
 
 - Click on `OK` again to close the environment variable window.
 
@@ -122,9 +122,9 @@
 ### Verification:
 
 - Open CMD (It is always a better measure to 'Run as administrator')
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/CMDinStartSearch.png?raw=true" width=50% height=50%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/CMDinStartSearch.png?raw=true" width=80% height=80%></p>
 - Run the command `hdfs` it should output like the one below:
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/JAVA_HOME_Verification.png?raw=true" width=55% height=55%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/JAVA_HOME_Verification.png?raw=true" width=85% height=85%></p>
   - If there is an `Error: JAVA_HOME is incorrectly set` message just after you run the command, you might have INCORRECTLY set the `Environment variable` or `Path` or `hadoop-env.cmd` steps. Go back and verify.
 
 - Format namenode:
@@ -139,7 +139,7 @@
     - Apache Hadoop Distribution - yarn resourcemanager
     - Apache Hadoop Distribution - yam nodemanager
   - You may get the following window during first-time use:
-    - Preview (Reference): <br /> <p align="left"><img src="https://venzi.files.wordpress.com/2019/08/oracle-database-18c-xe-windows-firewall.png" width=50% height=50%></p>
+    - Preview (Reference): <br /> <p align="left"><img src="https://venzi.files.wordpress.com/2019/08/oracle-database-18c-xe-windows-firewall.png" width=80% height=80%></p>
     - Tick both `Private networks...` and `Public networks...` and click on `Allow access`
   - Give it a few moments to initialize.
   - Preview: <br /> <p align="left"><img src="https://brain-mentors.com/wp-content/uploads/2020/11/546.png" width=70% height=70%></p>
