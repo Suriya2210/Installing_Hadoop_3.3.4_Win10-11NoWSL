@@ -160,3 +160,6 @@
   - For accessing NameNode web UI: http://localhost:9870
     - Preview: <br /> <p align="left"><img src="https://brain-mentors.com/wp-content/uploads/2020/11/asasas.jpg" width=80% height=80%></p>
 - You can stop all the applications by running the command `stop-all.cmd` in any Command Prompt window. 
+
+---
+###### That's it! We've successfully installed and executed Hadoop! Or did we? ( ﾉ ﾟｰﾟ)ﾉ
