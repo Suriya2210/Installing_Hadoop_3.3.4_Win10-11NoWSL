@@ -147,7 +147,7 @@
  - Verify execution:
    - Execute the command `jps`
    - You should get the following output:
-   - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/CMD%20Outputs/jpsExecution.png?raw=true" width=70% height=70%></p>
+   - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/CMD%20Outputs/jpsExecution.png?raw=true" width=85% height=85%></p>
    - If there are any one of them missing, check the respective window of the missed application to check for errors. There should not be any `SHUTDOWN_MSG: Shutting down %application% at %SystemName%/%IP_Address%`
 
 ---
