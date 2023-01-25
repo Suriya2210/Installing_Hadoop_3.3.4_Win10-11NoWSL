@@ -162,4 +162,4 @@
 - You can stop all the applications by running the command `stop-all.cmd` in any Command Prompt window. 
 
 ---
-###### That's it! We've successfully installed and executed Hadoop! Or did we? ( ﾉ ﾟｰﾟ)ﾉ
+##### That's it! We've successfully installed and executed Hadoop! Or did we? ( ﾉ ﾟｰﾟ)ﾉ
