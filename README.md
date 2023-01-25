@@ -18,10 +18,10 @@
 
 - Type `"Edit the system environment variables"` in the Start Menu. _[Not "Edit environment variables for your account"]_
   - Windows 11 Preview - <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWin11.png?raw=true" width=50% height=50%></p>
-  - Windows 10 Preview - <br /> <p align="left"><img style="float: right;" src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWin10.png?raw=true" width=70% height=70%></p>
+  - Windows 10 Preview - <br /> <p align="left"><img style="float: right;" src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWin10.png?raw=true" width=50% height=50%></p>
 
 - Under both `User variables for %YOUR_USERNAME%` **and** `System variables`, click on `New...`
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarBefore.png?raw=true" width=70% height=70%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarBefore.png?raw=true" width=65% height=65%></p>
 
 - Now create two environment variables with the following values in the before mentioned places:
   - Variable 1:
@@ -32,14 +32,14 @@
     - Variable value	: `C:\hadoop-3.3.4`
 
 - It should look like this after completion:
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarAfter.png?raw=true" width=70% height=70%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarAfter.png?raw=true" width=65% height=65%></p>
 
 - Now, under both the variable lists, open `Path`, add the following and click on `OK`:
   -  `C:\Program Files\Java\jdk1.8.0_361\bin`
   -  `C:\hadoop-3.3.4\bin`
   -  `C:\hadoop-3.3.4\sbin`
 - It should look like this:
-  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWindow.png?raw=true" width=72% height=72%></p>
+  - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/EnvVarWindow.png?raw=true" width=65% height=65%></p>
 
 - Click on `OK` again to close the environment variable window.
 
@@ -147,7 +147,7 @@
  - Verify execution:
    - Execute the command `jps`
    - You should get the following output:
-   - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/CMD%20Outputs/jpsExecution.png?raw=true" width=60% height=60%></p>
+   - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/CMD%20Outputs/jpsExecution.png?raw=true" width=70% height=70%></p>
    - If there are any one of them missing, check the respective window of the missed application to check for errors. There should not be any `SHUTDOWN_MSG: Shutting down %application% at %SystemName%/%IP_Address%`
 
 ---
