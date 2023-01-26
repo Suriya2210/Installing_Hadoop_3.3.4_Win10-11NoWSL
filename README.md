@@ -35,7 +35,7 @@
 - It should look like this after completion:
   - Preview: <br /> <p align="left"><img src="https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/blob/main/Screenshots/SysEnvVarAfter.png?raw=true" width=65% height=65%></p>
 
-- Now, under both the variable lists, open `Path`, add the following and click on `OK`:
+- Now, under both the variable lists, open `Path` (either by double-clicking on it or select it and click `Edit`), add the following directories to the list and click on `OK`:
   -  `C:\Program Files\Java\jdk1.8.0_361\bin`
   -  `C:\hadoop-3.3.4\bin`
   -  `C:\hadoop-3.3.4\sbin`
