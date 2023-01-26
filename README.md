@@ -27,7 +27,7 @@
 - Now create two environment variables with the following values in the before mentioned places:
   - Variable 1:
     - Variable name		: `JAVA_HOME`
-    - Variable value	: `C:\Program Files\Java\jdk1.8.0_361`
+    - Variable value	: `C:\Program Files\Java\jdk1.8.0_361` or the path of your preferred version
   - Variable 2:
     - Variable name		: `HADOOP_HOME`
     - Variable value	: `C:\hadoop-3.3.4`
@@ -117,6 +117,7 @@
 - Finally, edit file `C:\hadoop-3.3.4\etc\hadoop\hadoop-env.cmd`
   - Find `set JAVA_HOME=%JAVA_HOME%`
   - Replace it with `set JAVA_HOME=C:\Progra~1\Java\jdk1.8.0_361`
+    - *Note:* You just have to replace the `%JAVA_HOME%` with the path specified above or the path to your preferred version. I gave it in full for easy searching.
   - Save and close the editor
 
 ---
