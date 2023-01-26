@@ -5,8 +5,9 @@
 - I strongly suggest you to remove your previous install of Hadoop from your computer (assuming you ran into errors) for a clean-install experience.
 
 - Make sure you have downloaded the following files:
-  - JDK 1.8_8u361 or better - [Direct link](https://drive.google.com/file/d/1MG3shs65Zpb-ZR_11GUM3WD7VSoGENfQ/view?usp=share_link)
+  - JDK 1.8_8u361 - [Direct link](https://drive.google.com/file/d/1MG3shs65Zpb-ZR_11GUM3WD7VSoGENfQ/view?usp=share_link)
   - WinRAR _(Ignore if already installed)_ - [Direct Link](https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-620.exe)
+    - If you have any other decompression software alternative like [7-Zip](https://www.7-zip.org/download.html), etc. go ahead and use it.
   - Hadoop 3.3.4.tar.gz - [Direct link](https://dlcdn.apache.org/hadoop/common/hadoop-3.3.4/hadoop-3.3.4.tar.gz)
   - bin.zip (For winutils config) - [Direct link](https://github.com/Suriya2210/Installing_Hadoop_3.3.4_Win10-11NoWSL/raw/main/Resources/bin.zip)
 
@@ -163,3 +164,15 @@
 
 ---
 #### That's it! We've successfully installed and executed Hadoop! Or did we? ( ﾉ ﾟｰﾟ)ﾉ
+
+---
+#### Time for the questions now (that were asked to me recently):
+
+Q. What exactly are the differences between the .tar.gz (Compressed package) and the .exe (Executable installer) version of JDK?
+A. As far as I know, the .tar.gz variant needs to be configured manually for the required scenario and is recommended for advanced users who knows what they are dealing with (Even as far as actually registering it as a version in the JDK/JRE manager manually). The .exe variant on the other hand is preferred my most users and is a straightforward way to get JDK and JRE up and running in your machine. All you have to do is just set up `Path` in `Environment Variables`.
+
+Q. Why WinRAR?
+A. WinRAR is known to support various compression formats. So installing it now might help us in the future. (Come on it's just around 10MB)
+
+Q. Why specifically the 1.8 version of JDK?
+A. Honestly, I really have no in-depth idea as on why but form what I have heard, Hadoop was developed and built around that so this might provide better stability.
