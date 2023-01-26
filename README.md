@@ -4,7 +4,7 @@
 ### Before you begin...
 - I strongly suggest you to remove your previous install of Hadoop from your computer (assuming you ran into errors) for a clean-install experience.
 
-- Make sure you have downloaded the following files:
+- Make sure you have downloaded the following files: (You may reuse already downloaded files)
   - JDK 1.8_8u361 - [Direct link](https://drive.google.com/file/d/1MG3shs65Zpb-ZR_11GUM3WD7VSoGENfQ/view?usp=share_link)
   - WinRAR _(Ignore if already installed)_ - [Direct Link](https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-620.exe)
     - If you have any other decompression software alternative like [7-Zip](https://www.7-zip.org/download.html), etc. go ahead and use it.
