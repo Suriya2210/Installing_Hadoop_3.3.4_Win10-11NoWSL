@@ -118,9 +118,9 @@
   - Find `set JAVA_HOME=%JAVA_HOME%`
   - Replace it with `set JAVA_HOME=C:\Progra~1\Java\jdk1.8.0_361`
     - *Note:* You just have to replace the `%JAVA_HOME%` with the path specified above or the path to your preferred version. I gave it in full for easy searching.
-  - *Mandatory:* For systems with usernames containing white-space (Ex: Hari Krishna):
+  - *Mandatory:* For systems with usernames containing white-space (Ex: Hari Krishna) & ignore for those who don't:
     - Find `set HADOOP_IDENT_STRING=%USERNAME%`
-    - Replace it with the first word of your username but with the last letter replaced with `~1` in your `User` path. Example: `Hari Lrishna` -> `Har~1`
+    - Replace it with your `User` path but with the last letter of your username's first word replaced with `~1`. Example: `Hari Krishna` -> `Har~1`
       - Like `set HADOOP_IDENT_STRING=C:\User\Har~1` 
   - Save and close the editor
 
