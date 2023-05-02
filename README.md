@@ -180,4 +180,15 @@ Q. Why WinRAR?
 A. WinRAR is known to support various compression formats. So installing it now might help us in the future. (Come on it's just around 10MB)
 
 Q. Why specifically the 1.8 version of JDK?
-A. Honestly, I really have no in-depth idea as on why but form what I have heard, Hadoop was developed and built around that so this might provide better stability.
+A. Honestly, I really have no in-depth idea as on why but form what I have heard, Hadoop was developed and built around that so this might provide better stability. Here's a response from online - "Hadoop relies on certain Java libraries and APIs that were present in JDK 1.8 but may have been removed or changed in later versions of Java. Therefore, upgrading to the latest version of Java may cause compatibility issues with Hadoop, resulting in errors or unexpected behavior."
+
+Q. Why should I run Hadoop in administrator mode?
+A. When running Hadoop on Windows, it is recommended to run the Command Prompt (CMD) in administrator mode to ensure that you have the necessary permissions to execute Hadoop commands and perform various administrative tasks.
+
+Hadoop requires access to certain system resources and configuration files that are typically protected by Windows security features. By running CMD in administrator mode, you gain elevated privileges and are able to perform actions that require permissions beyond those granted to a standard user.
+
+For example, when you start Hadoop services such as the NameNode and DataNode daemons, you need to modify certain system properties and open network ports, which can only be done with administrator privileges. Similarly, if you want to configure Hadoop settings or create new users, you need administrative rights to modify the necessary configuration files.
+
+Therefore, to avoid any permission-related errors or issues when running Hadoop on Windows, it is best to use the Command Prompt in administrator mode.
+
+
