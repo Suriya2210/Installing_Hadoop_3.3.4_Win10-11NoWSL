@@ -173,16 +173,16 @@
 ---
 #### Time for the questions now (that were asked to me recently):
 
-Q. What exactly are the differences between the .tar.gz (Compressed package) and the .exe (Executable installer) version of JDK?
+Q. What exactly are the differences between the .tar.gz (Compressed package) and the .exe (Executable installer) version of JDK?\
 A. As far as I know, the .tar.gz variant needs to be configured manually for the required scenario and is recommended for advanced users who knows what they are dealing with (Even as far as actually registering it as a version in the JDK/JRE manager manually). The .exe variant on the other hand is preferred my most users and is a straightforward way to get JDK and JRE up and running in your machine. All you have to do is just set up `Path` in `Environment Variables`.
 
-Q. Why WinRAR?
+Q. Why WinRAR?\
 A. WinRAR is known to support various compression formats. So installing it now might help us in the future. (Come on it's just around 10MB)
 
-Q. Why specifically the 1.8 version of JDK?
+Q. Why specifically the 1.8 version of JDK?\
 A. Honestly, I really have no in-depth idea as on why but form what I have heard, Hadoop was developed and built around that so this might provide better stability. Here's a response from online - "Hadoop relies on certain Java libraries and APIs that were present in JDK 1.8 but may have been removed or changed in later versions of Java. Therefore, upgrading to the latest version of Java may cause compatibility issues with Hadoop, resulting in errors or unexpected behavior."
 
-Q. Why should I run Hadoop in administrator mode?
+Q. Why should I run Hadoop in administrator mode?\
 A. When running Hadoop on Windows, it is recommended to run the Command Prompt (CMD) in administrator mode to ensure that you have the necessary permissions to execute Hadoop commands and perform various administrative tasks.
 
 Hadoop requires access to certain system resources and configuration files that are typically protected by Windows security features. By running CMD in administrator mode, you gain elevated privileges and are able to perform actions that require permissions beyond those granted to a standard user.
