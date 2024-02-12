@@ -190,5 +190,3 @@ Hadoop requires access to certain system resources and configuration files that 
 For example, when you start Hadoop services such as the NameNode and DataNode daemons, you need to modify certain system properties and open network ports, which can only be done with administrator privileges. Similarly, if you want to configure Hadoop settings or create new users, you need administrative rights to modify the necessary configuration files.
 
 Therefore, to avoid any permission-related errors or issues when running Hadoop on Windows, it is best to use the Command Prompt in administrator mode.
-
-
